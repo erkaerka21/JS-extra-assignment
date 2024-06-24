@@ -48,7 +48,22 @@ function niitBorluulalt(arr) {
       borluulaltiinDun = borluulaltiinDun + order.items[j].price;
     }
   }
-  return borluulaltiinDun;
+  return "Өгөгдсөн захиалгуудын нийт борлуулалтын дүн : " + borluulaltiinDun;
 }
 let findNiitBorluulalt = niitBorluulalt(orders);
 console.log(findNiitBorluulalt);
+
+//daalgavar4
+//Ugugdsun company iin data aas hamgiin ih tsalintai ajiltang oldog function bichih.
+const company = {
+  name: "TechCorp",
+  address: "123 Silicon Valley",
+  employees: [
+    { name: "Alice", salary: 90000 },
+    { name: "Bob", salary: 120000 },
+    { name: "Charlie", salary: 110000 },
+  ],
+};
+
+let findhighSalary = highsalary(company);
+console.log(findhighSalary);
